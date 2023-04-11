@@ -33,17 +33,9 @@
 
 // ----------------------------------Q3-----------------------------
 
-function addParagraph(text) {
-  const p = document.createElement("p");
-  p.textContent = text;
-  document.body.appendChild(p);
-}
-const btnAddParagraph = document.querySelector('#btnAddParagraph');
-
-btnAddParagraph.addEventListener("click", function () {
-  addParagraph("New Paragraph Added! -----> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia, risus nec malesuada mattis, nisi nisl finibus mauris, sed pulvinar turpis leo quis purus. Aliquam a vulputate sapien, non porta justo. Suspendisse hendrerit vulputate risus tristique scelerisque. Vestibulum sed erat purus. Nunc imperdiet congue ante, ac tempus odio bibendum at. Suspendisse euismod mattis orci vel malesuada. Curabitur quis dolor vel ante ultrices bibendum sit amet ac risus. In rhoncus erat et lorem faucibus, at dapibus quam viverra. In feugiat a turpis vel viverra. Ut ut lacus ornare, ornare velit nec, pellentesque nisi. In eget iaculis risus. Suspendisse sed mi velit. Suspendisse purus magna, sodales in varius in, placerat eget dolor. Curabitur malesuada cursus orci, ac feugiat risus volutpat eget. Mauris tristique tortor ut blandit iaculis. ");
-});
-
+// let myPara = document.querySelector("p");
+// myPara.innerHTML = "<b>(Pakistan Zindabad)</b>"
+// console.log(myPara)
 
 // -------------------------------------------Q4-----------------------------------
 
@@ -64,11 +56,11 @@ btnAddParagraph.addEventListener("click", function () {
 
 // / ------------------------------Q5-----------------------
 
-// let yourPara = document.querySelector("#your-para");
-// yourPara.innerHTML = "<b>Pakistan Zindabad</b>";
-// yourPara.style.backgroundColor = "#000";
-// yourPara.style.color = "#fff";
-// yourPara.style.width = "100%";
+let yourPara = document.querySelector("#your-para");
+yourPara.innerHTML = "<b>Pakistan Zindabad</b>";
+yourPara.style.backgroundColor = "#000";
+yourPara.style.color = "#fff";
+yourPara.style.width = "100%";
 
 
 
